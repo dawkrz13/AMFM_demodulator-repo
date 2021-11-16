@@ -1,0 +1,1 @@
+The goal of this project is to design and build **Amplitude Modulation (AM)** and **Frequency Modulation (FM)** demodulator based on **Hilbert transform** assuming that the carrier frequency is unknown.
