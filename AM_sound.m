@@ -89,6 +89,6 @@ xlim([0 length(y_single_channel)]);
 %% compare sound
 sound(y,Fs)
 pause(6)
-sound(y_dem2,Fs)
+sound(y,Fs)
 pause(6)
 sound(y_dem,Fs)

@@ -88,7 +88,7 @@ inst_freq = (diff(inst_phase)*Fs)/(2*pi);
 
 subplot(3,2,6);
 %plot(y_dem); title('demodulated signal');
-plot(inst_freq); title('demodulated signal');
+plot(inst_freq); title('Matlab demodulated signal');
 xlabel('n [-]'); ylabel('frequency [Hz]');
 xlim([0 length(y_single_channel)]);
 ylim([9350 9850]);
